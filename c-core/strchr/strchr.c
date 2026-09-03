@@ -10,13 +10,7 @@ const char	*strchr(const char *s, int c)
 		{
 			return (const char *) (s + i);
 		}
-		// else if (*(s + i) != '\0')
-		// {
-		// 	return (const char *) (s + i);
-		// }
 		i++;
 	}
 	return (NULL);
 }
-
-
